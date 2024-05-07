@@ -1,36 +1,24 @@
-@keyframes bounce {
+@keyframes pulse {
   0% {
-    transform: translateY(0);
+    transform: scale(1);
+    opacity: 1;
   }
   50% {
-    transform: translateY(-10px);
+    transform: scale(1.2);
+    opacity: 0.7;
   }
   100% {
-    transform: translateY(0);
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Kacey-animation {
+  animation: pulse 1.5s infinite;
 }
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  animation: App-logo-spin infinite 20s linear;
-}
-
-.Kacey-animation {
-  animation: bounce 1s infinite;
 }
 
 .App-header {
@@ -42,8 +30,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
