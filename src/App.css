@@ -1,29 +1,30 @@
 @keyframes pulse {
   0% {
-    transform: scale(1);
-    opacity: 1;
+    background-color: #fff; 
+    color: #000; 
   }
   50% {
-    transform: scale(1.2);
-    opacity: 0.7;
+    background-color: #ffcc00; 
+    color: #fff; 
   }
   100% {
-    transform: scale(1);
-    opacity: 1;
+    background-color: #fff; 
+    color: #000; 
   }
 }
 
-.Kacey-animation {
+.Kacey-button {
+  background-color: #fff; 
+  color: #000; 
+  border: none;
+  padding: 30px 60px; 
+  font-size: 2em; 
+  cursor: pointer;
+  outline: none;
   animation: pulse 1.5s infinite;
 }
 
-.App {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+.Kacey-button:hover {
+  background-color: #ffcc00; 
+  color: #fff; 
 }
