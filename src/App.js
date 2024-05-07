@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <div className="bigK">K</div> {/* Big "K" jumping animation */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit Welcome to my portfolio!
         </p>
         <a
           className="App-link"
