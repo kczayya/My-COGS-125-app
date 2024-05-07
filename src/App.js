@@ -1,12 +1,17 @@
+import React from 'react';
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="bigK">K</div> {/* Big "K" jumping animation */}
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit Welcome to my portfolio!
+          <span className="Kacey-animation">K</span>acey
+        </p>
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -16,11 +21,9 @@ function App() {
         >
           Learn React
         </a>
-        <button className="biggerButton">Kacey</button> {/* Bigger button with name "Kacey" */}
       </header>
     </div>
   );
 }
 
 export default App;
-
